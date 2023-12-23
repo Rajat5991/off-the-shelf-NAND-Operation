@@ -16,6 +16,6 @@ Executing read, write, and erase operations on Micron TSOP-48 using FTDI-FT2232H
          pip install pyftdi
          pip install pyusb        
 4) Install zadig to use generic USB driver. Follow installation instruction guide in the link: - https://eblot.github.io/pyftdi/installation.html
-5) Micron Datasheet for deeper understanding of the command can be found in the link: https://datasheetspdf.com/pdf-file/843441/Micron/MT29F8G08ABACA/1
-3)FT2232H can be used in various configurations but for our setup we need to use it in MCU (mimics 8048 or 8051 microprocessor) host bus emulation mode.
-6) 
+5) For a more comprehensive understanding of the command, refer to the Micron Datasheet accessible through the provided link: https://datasheetspdf.com/pdf-file/843441/Micron/MT29F8G08ABACA/1
+6) FT2232H can be used in various configurations but for our setup we need to use it in MCU (mimics 8048 or 8051 microprocessor) host bus emulation mode.
+7) For details on the pin-to-pin connection between FTDI and TSOP-48 NAND Flash, please consult the provided reference: https://spritesmods.com/?art=ftdinand&page=2
