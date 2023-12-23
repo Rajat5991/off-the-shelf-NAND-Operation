@@ -27,3 +27,6 @@ Executing read, write, and erase operations on Micron TSOP-48 using FTDI-FT2232H
 For more details please refer below link.
 https://www.ftdichip.com/Support/Documents/AppNotes/AN_108_Command_Processor_for_MPSSE_and_MCU_Host_Bus_Emulation_Modes.pdf
 
+# Run Command
+
+Python nandoperation.py
