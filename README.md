@@ -12,6 +12,7 @@ Executing read, write, and erase operations on Micron TSOP-48 using FTDI-FT2232H
 
 2) Install D2xx driver to communicate with FT2232H from https://ftdichip.com/drivers/d2xx-drivers/
 3) Install pyftdi and pyusb library.
+
          pip install pyftdi
          pip install pyusb        
 4) Install zadig to use generic USB driver. Follow installation instruction guide in the link: - https://eblot.github.io/pyftdi/installation.html
